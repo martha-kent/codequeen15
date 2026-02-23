@@ -1,5 +1,7 @@
 *{
-    background-color:rgb(191, 180, 206);
+
+    margin: 0;
+    padding: 0;
 
 
 
@@ -22,4 +24,25 @@ img{
 }
 .food{
     background-color: rgb(142, 218, 20);
+}
+#sample{
+     background-color: rgb(111, 121, 165);
+     border: 5px red dashed
+    
+}
+.first{
+    border-style: dotted;
+    margin: 10px 15px;
+    padding: 30px;
+}
+/* My flexbox properties */
+.container{
+    background-color: rgb(66, 194, 115);
+
+}
+.childContainer{
+    background-color: rgb(158, 235, 209);
+    display: flex;
+    flex-direction: row;
+     justify-content: space-between;
 }
