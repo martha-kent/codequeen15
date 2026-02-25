@@ -37,12 +37,39 @@ img{
 }
 /* My flexbox properties */
 .container{
-    background-color: rgb(66, 194, 115);
+    /* background-color: rgb(66, 194, 115); */
 
 }
 .childContainer{
     background-color: rgb(158, 235, 209);
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
      justify-content: space-between;
+     
+}
+/* blue container */
+.blue-container{
+    border: 3px blue solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flex-items{
+    border: 2px orange solid;
+    margin:5px;
+    height: 80px;
+    width: 50px;    
+        
+}
+.mine{
+    color: blue;
+}
+.last{
+    border: 1px plum;
+}
+img{
+    width: 50px;
+    border-radius: 50%;
+    
 }
